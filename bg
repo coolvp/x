@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Textbox Background Change</title>
+ <style>
+ input {
+ padding: 8px;
+ margin: 5px; }
+ </style>
+ <script>
+ function changeColor(element) {
+ element.style.backgroundColor = "lightblue"; }
+ </script>
+</head>
+<body>
+<h3>Click on any Textbox</h3>
+<input type="text" onclick="changeColor(this)" placeholder="Textbox 1">
+<input type="text" onclick="changeColor(this)" placeholder="Textbox 2">
+<input type="text" onclick="changeColor(this)" placeholder="Textbox 3">
+<input type="text" onclick="changeColor(this)" placeholder="Textbox 4">
+<input type="text" onclick="changeColor(this)" placeholder="Textbox 5">
+</body>
+</html>
