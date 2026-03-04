@@ -1,0 +1,20 @@
+4. Create a p tag using jquery.
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Create p Tag using jQuery</title>
+ <!-- jQuery CDN -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<button id="btn">Click to Create Paragraph</button>
+<div id="content"></div>
+<script>
+ $(document).ready(function(){
+ $("#btn").click(function(){
+ $("<p>This paragraph is created using jQuery!</p>").appendTo("#content");
+ });
+ });
+</script>
+</body>
+</html>
